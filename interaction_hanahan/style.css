@@ -1,0 +1,1102 @@
+			.box {
+				position: relative;
+				width: 300px;
+				height: 300px;
+				background-color: black;
+				margin: 40px;
+				float: left;
+			}
+			p {
+				font-family: "Space Mono";
+				font-weight: 400;
+				font-style: italic;
+				font-size: 18px;
+				text-align: left;
+				color: white;
+				margin: 40px;
+			}
+
+			h1 {
+				font-family: 'Space Mono', monospace;
+				font-weight: 700;
+			 	font-size: 60px;
+			 	text-align: center;
+			 	margin: 40;
+			 	text-transform: uppercase;
+			}
+
+			h2 {
+				font-family: "Space Mono";
+				font-weight: 400;
+				font-size: 30px;
+				text-transform: uppercase;
+				text-align: center;
+				color: white;
+				margin: 40px;
+			}
+
+			h3 {
+				font-family: "Space Mono";
+				font-weight: normal;
+				font-style: italic;
+				font-size: 18px;
+				text-align: left;
+				color: white;
+				margin: 40px;
+			}
+
+			h5 {
+				font-family: serif;
+				font-size: 24px;
+				color: white;
+				margin-left: 20px;
+			}
+
+			.num {
+				font-family: "Space Mono";
+				font-feature-settings:"onum";
+				font-size: 20px;
+				position: absolute;
+				bottom: 20px;
+				right: 25px;
+				margin: 0;
+				font-weight: normal;
+				color: white;
+
+			}
+
+			.everything {
+				background-color: black;
+				height: 1000PX;
+			}
+			/*------------------1------------------*/
+
+			#a {
+				background-color: blue;
+				cursor: pointer;
+			}
+
+			#a .num
+
+			/*------------------2------------------*/
+
+			#b {
+				cursor: pointer;
+			}
+
+			/*------------------3------------------*/
+
+			#c {
+				background-color: #AA00FF;
+				cursor: pointer;
+			}
+
+			/*------------------4------------------*/
+
+			#d {
+				background-color: red;
+				cursor: pointer;
+			}
+
+			/*------------------5------------------*/
+
+			#e {
+				background-color: #ccc;
+				cursor: pointer;
+			}
+
+			/*------------------6------------------*/
+
+			#f:hover {
+    			transform:skew(60deg,10deg);
+    			cursor: pointer;
+			}
+			#f:active {
+				background-color: hotpink;
+			}
+
+			/*------------------7------------------*/
+
+			#g {
+				
+			}
+
+			/*------------------8------------------*/
+			#h {
+				cursor: pointer;
+			}
+
+			/*------------------9------------------*/
+			#i {
+				cursor: pointer;
+			}
+			/*------------------10------------------*/
+
+			#j h1{
+				color: white;
+				cursor: pointer;
+			}
+			#j h1:hover{
+				color: #ff0000;
+			}
+			#j p{
+				text-align: center;
+
+			}
+
+			/*------------------11------------------*/
+
+			/*------------------12------------------*/
+			#l:active {
+			-webkit-filter: invert(100%)!important; }
+
+			#l p{
+				color: #555;
+			}
+
+			/*------------------13------------------*/
+			#m h2 {
+				margin-top:40px; 
+				margin-left:40px;
+			}
+
+
+			/*------------------14------------------*/
+			.one {
+			cursor: pointer;
+	        background: #ff0000;
+	        border-radius: 50%;
+	        height: 100px;
+	        width: 100px;
+	        left: 200px;
+	        position: relative;
+	        top:100px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			#n p {
+				text-align: center;
+				margin: 0;
+
+			}
+			/*------------------15------------------*/
+			#o {
+				background-color: #FFEB3B;
+			}
+			.two {
+			cursor: pointer;
+	        background: #EC407A;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			.three {
+			cursor: pointer;
+	        background: #E91E63;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			.four {
+			cursor: pointer;
+	        background: #D81B60;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			.five {
+			cursor: pointer;
+	        background: #C2185B;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			.six {
+			cursor: pointer;
+	        background: #AD1457;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			.seven {
+			cursor: pointer;
+	        background: #880E4F;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			/*------------------16------------------*/
+			#p {
+				background-color: #E91E63;
+			}
+			#p .two{
+				background: #FFEE58;
+			}
+			#p.two {
+			cursor: pointer;
+	        background: #EC407A;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			#p .three{
+				background: #FFEB3B;
+			}
+			.three {
+			cursor: pointer;
+	        background: #E91E63;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			#p .four{
+				background: #FDD835;
+			}
+			.four {
+			cursor: pointer;
+	        background: #D81B60;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			#p .five{
+				background: #FBC02D;
+			}
+			.five {
+			cursor: pointer;
+	        background: #C2185B;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			#p .six{
+				background: #F9A825;
+			}
+			.six {
+			cursor: pointer;
+	        background: #AD1457;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+			#p .seven{
+				background: #F57F17;
+			}
+			.seven {
+			cursor: pointer;
+	        background: #880E4F;
+	        border-radius: 50%;
+	        height: 50px;
+	        width: 50px;
+	        left: 200px;
+	        position: relative;
+	        top:0px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			/*------------------17------------------*/
+
+
+			/*------------------18------------------*/
+
+			.ball {
+			cursor: pointer;
+	        background: white;
+	        border-radius: 50%;
+	        height: 100px;
+	        width: 100px;
+	        left: 200px;
+	        position: relative;
+	        top:100px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			/*------------------19------------------*/
+
+			#ballnineteen {
+			background: red;
+			cursor: pointer;
+	        border-radius: 50%;
+	        height: 100px;
+	        width: 100px;
+	        left: 200px;
+	        position: relative;
+	        top:100px;
+	        bottom:0;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			/*------------------20------------------*/
+
+			/*------------------21------------------*/
+
+			#u {
+				background-color: #76FF03;
+				cursor: pointer;
+			}
+
+			/*------------------22------------------*/
+
+			#v {
+				background-color: #FF3D00;
+				cursor: pointer;
+			}
+
+			/*------------------23------------------*/
+
+			#w {
+				background-color: #64FFDA;
+				cursor: pointer;
+			}
+
+			/*------------------24------------------*/
+			#x {
+				background-color: #81D4FA;
+			}
+
+			/*------------------25------------------*/
+			#y {
+				background-color: #01579B;
+			}
+
+			/*------------------26------------------*/
+
+			.square {
+			background-color: #69F0AE;
+			cursor: pointer;
+			border-radius: 30%;
+	        background: white;
+	        height: 20px;
+	        width: 200px;
+	        position: relative;
+	        top:100px;
+	        bottom:100px;
+	        left:0;
+	        right: 0;
+	        margin: auto;
+			}
+
+			/*------------------27------------------*/
+			#aa {
+				background: #FFEB3B;
+			}
+
+			/*------------------28------------------*/
+
+			#bb {
+				background: #FF5722;
+			}
+
+			/*------------------29------------------*/
+
+			#cc {
+				background: #424242;
+			}
+
+			#circleone {
+				background: #FF5722;
+			}
+
+			/*------------------30------------------*/
+
+			#dd {
+				background: #FF5722;
+			}
+
+			/*------------------31------------------*/
+
+			#ee {
+				background-color: #26A69A;
+			}
+
+			/*------------------32------------------*/
+
+			#ff {
+				background: #00ffff;
+			}
+
+			#circletwo {
+				background: #673AB7;
+			}
+
+			/*------------------33------------------*/
+
+			#gg {
+				background: #D1C4E9;
+			}
+
+			#circlethree {
+				background: #ffdd00;
+			}
+
+			/*------------------34------------------*/
+
+			#hh {
+				background: #FF8A80;
+			}
+
+			#circlefour {
+				background: black;
+			}
+
+			/*------------------35------------------*/
+
+
+			/*------------------36------------------*/
+
+			#jj {
+				background: #673AB7;
+			}
+
+			#circlefive {
+				background: #F44336;
+			}
+
+			/*------------------37------------------*/
+
+			#kk {
+				background: #880E4F;
+			}
+
+			#circlesix {
+				background: #FFCA28;
+			}
+
+			/*------------------38------------------*/
+
+			#ll {
+				background: #ffdd00;
+			}
+
+			#circleseven {
+				background: #FF8A80;
+			}
+
+			/*------------------39------------------*/
+
+			#mm {
+				background-color: #F44336;
+			}
+
+			#circleeight {
+				background: #673AB7;
+			}
+
+			/*------------------40------------------*/
+
+			#nn {
+				background-color: #2196F3;
+			}
+
+			#circlenine {
+				background: #18ddFF;
+			}
+
+			/*------------------41------------------*/
+
+			#oo {
+				background-color: #18ddFF;
+			}
+
+			#circleten {
+				background: #FFCA28;
+			}
+
+			/*------------------42------------------*/
+
+			#pp {
+				background-color: #00C853;
+			}
+
+			#circleeleven {
+				background: #E91E63;
+			}
+
+			/*------------------43------------------*/
+
+			#qq {
+				background-color: #4E342E;
+			}
+
+			#circletwelve {
+				background: #00BFA5;
+			}
+
+			/*------------------44------------------*/
+
+			#rr {
+				background-color: #FFCA28;
+			}
+
+			#circlethirteen {
+				background: #880E4F;
+			}
+
+			/*------------------45------------------*/
+
+			#ss {
+				background-color: #DD2C00;
+			}
+
+			#circlefourteen {
+				background: #424242;
+			}
+
+			/*------------------46------------------*/
+
+			#tt {
+				background-color: #00BFA5;
+			}
+
+			#circlefifteen {
+				background: white;
+			}
+
+			/*------------------47------------------*/
+
+			#uu {
+				background-color: #536DFE;
+			}
+
+			#circlesixteen {
+				background: #E91E63;
+			}
+
+			/*------------------48------------------*/
+
+			#vv {
+				background-color: #E040FB;
+			}
+
+			#circleseventeen {
+				background: #FF8A80;
+			}
+
+			/*------------------49------------------*/
+
+			#ww {
+				background-color: #CDDC39;
+			}
+
+			#circleeighteen {
+				background: #E91E63;
+			}
+
+			/*------------------50------------------*/
+
+			#xx {
+				background-color: #E91E63;
+			}
+
+			#circlenineteen {
+				background: #880E4F;
+			}
+
+			/*------------------51------------------*/
+
+			#yy {
+				cursor: pointer;
+			}
+
+			/*------------------52------------------*/
+
+			#zz {
+				cursor: pointer;
+			}
+
+			/*------------------53------------------*/
+			#aaa {
+				cursor: pointer;
+			}
+
+			/*------------------54------------------*/
+			#bbb {
+				cursor: pointer;
+			}
+
+			/*------------------55------------------*/
+			#ccc {
+				cursor: pointer;
+			}
+
+			/*------------------56------------------*/
+			#ddd {
+				cursor: pointer;
+			}
+
+			/*------------------57------------------*/
+			#eee {
+				cursor: pointer;
+				background: red;
+			}
+			#droppable { background: black; 
+				width: 150px; height: 150px; 
+				padding: 0.5em; 
+				float: left; 
+				margin: 10px; 
+				position: relative;}
+
+
+
+
+			/*------------------58------------------*/
+			#fff {
+				cursor: pointer;
+				background: #ccc;
+			}
+			#resizable { color: black; width: 150px; height: 150px; padding: 0.5em; }
+  			#resizable h3 { text-align: center; margin: 0; }
+
+
+			/*------------------59------------------*/
+			#ggg {
+				cursor: pointer;
+			}
+
+
+
+
+			/*------------------60------------------*/
+			#hhh {
+				cursor: pointer;
+				background: #2196F3
+			}
+
+
+
+			/*------------------61------------------*/
+			#iii {
+				cursor: pointer;
+			}
+
+			#iii p {
+				color: black;
+			}
+
+			#iii h3 {
+				color: blue;
+			}
+
+	.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; height: 60px; text-decoration: none; background-color: red; }
+    #effect { width: 200px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+			/*------------------62------------------*/
+			#jjj {
+				cursor: pointer;
+			}
+			.toggler { width: 500px; height: 200px; position: relative; }
+		  	#button { padding: .5em 1em; text-decoration: none; }
+		  	#effect { position: relative; }
+		  	.newClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+		  	.anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+
+			/*------------------63------------------*/
+			#kkk {
+				cursor: pointer;
+			}
+			#downloadbutton {
+				color: red;
+			}
+
+
+			/*------------------64------------------*/
+			#lll {
+				cursor: pointer;
+				background: #ccc;
+			}
+
+
+			/*------------------65------------------*/
+			#mmm {
+				cursor: pointer;
+			}
+
+
+			/*------------------66------------------*/
+			#nnn {
+				cursor: pointer;
+			}
+
+
+			/*------------------67------------------*/
+			#ooo {
+				cursor: pointer;
+			}
+
+
+			/*------------------68------------------*/
+			#ppp {
+				cursor: pointer;
+					-webkit-transition: all 10000ms ease;
+               -moz-transition: all 10000ms ease;
+               -ms-transition: all 10000ms ease;
+               -o-transition: all 10000ms ease;
+               transition: all 10000ms ease;
+			}
+			#ppp h1 {
+				color: white;
+			}
+
+
+			/*------------------69------------------*/
+			#qqq {
+				cursor: pointer;
+			}
+
+
+			/*------------------70------------------*/
+			#rrr {
+				cursor: pointer;
+			
+			-webkit-transition: all 1000ms ease;
+               -moz-transition: all 1000ms ease;
+               -ms-transition: all 1000ms ease;
+               -o-transition: all 1000ms ease;
+               transition: all 1000ms ease;
+             }
+
+
+			/*------------------71------------------*/
+			#sss {
+				cursor: pointer;
+			}
+
+
+			/*------------------72------------------*/
+			#ttt {
+				cursor: pointer;
+			}
+
+
+			/*------------------73------------------*/
+			#uuu {
+				cursor: pointer;
+			}
+
+
+			/*------------------74------------------*/
+			#vvv {
+				cursor: pointer;
+			}
+
+
+			/*------------------75------------------*/
+			#www {
+				cursor: pointer;
+				-webkit-transition: all 1000ms ease;
+               -moz-transition: all 1000ms ease;
+               -ms-transition: all 1000ms ease;
+               -o-transition: all 1000ms ease;
+               transition: all 1000ms ease;
+			}
+
+
+			/*------------------76------------------*/
+			#xxx {
+				cursor: pointer;
+			}
+
+
+			/*------------------77------------------*/
+			#yyy {
+				cursor: pointer;
+			}
+
+
+			/*------------------78------------------*/
+			#zzz {
+				cursor: pointer;
+				background-color: #E91E63;
+			}
+
+
+			/*------------------79------------------*/
+			#aaaa {
+				cursor: pointer;
+				background-color: #FFC000;
+			}
+
+
+			/*------------------80------------------*/
+			#bbbb {
+				cursor: pointer;
+			}
+
+			/*------------------81------------------*/
+			#cccc {
+				cursor: pointer;
+			}
+			.youtube-player{
+				width: 250px;
+				height: auto;
+				padding: 0px;
+				margin-left: 25px;
+				margin-bottom: 25px;
+				margin-top: 50px;
+				}
+
+			/*------------------82------------------*/
+			#dddd {
+				cursor: pointer;
+				-webkit-transition: all 1000ms ease;
+               -moz-transition: all 1000ms ease;
+               -ms-transition: all 1000ms ease;
+               -o-transition: all 1000ms ease;
+               transition: all 1000ms ease;
+			}
+			#circletwenty {
+				background-color: white;
+				-webkit-transition: all 1000ms ease;
+               -moz-transition: all 1000ms ease;
+               -ms-transition: all 1000ms ease;
+               -o-transition: all 1000ms ease;
+               transition: all 1000ms ease;
+			}
+
+
+			/*------------------83------------------*/
+			#eeee {
+				cursor: pointer;
+			}
+
+				#circletwentyone {
+				background-color: white;
+				-webkit-transition: all 1000ms ease;
+               -moz-transition: all 1000ms ease;
+               -ms-transition: all 1000ms ease;
+               -o-transition: all 1000ms ease;
+               transition: all 1000ms ease;
+			}
+
+
+			/*------------------84------------------*/
+			#ffff {
+				cursor: pointer;
+			}
+				#circletwentytwo {
+				background-color: white;
+				-webkit-transition: all 1000ms ease;
+               -moz-transition: all 1000ms ease;
+               -ms-transition: all 1000ms ease;
+               -o-transition: all 1000ms ease;
+               transition: all 1000ms ease;
+			}
+
+
+			/*------------------85------------------*/
+			#gggg {
+				cursor: pointer;
+			}
+
+
+			/*------------------86------------------*/
+			#hhhh {
+				cursor: pointer;
+				background-color: #eee;
+
+			}
+			#circletwentythree {
+				background-color: red;
+				z-index: 1;
+			}
+
+
+			/*------------------87------------------*/
+			#iiii {
+				cursor: pointer;
+			}
+
+-
+			/*------------------88-----------------*/
+			#jjjj {
+				cursor: pointer;
+			}
+
+
+			/*------------------89------------------*/
+			#kkkk {
+				cursor: pointer;
+				-webkit-transition: all 2000ms ease;
+               -moz-transition: all 2000ms ease;
+               -ms-transition: all 2000ms ease;
+               -o-transition: all 2000ms ease;
+               transition: all 2000ms ease;
+			}
+
+
+			/*------------------90------------------*/
+			#llll {
+				cursor: pointer;
+				background-color: white;
+			}
+			#llll .num {
+				color: black;
+			}
+
+
+			/*------------------91------------------*/
+			#mmmm {
+				cursor: pointer;
+				background-color: #00E676;
+				z-index: -2;
+			}
+
+
+			/*------------------92------------------*/
+			#nnnn {
+				cursor: pointer;
+			}
+
+
+			/*------------------93------------------*/
+			#oooo {
+				cursor: pointer;
+				z-index: -4;
+				background-color: red;
+
+			}
+
+			#oooo:active {
+				background-color: blue;
+			}
+
+
+			/*------------------94------------------*/
+			#pppp {
+				cursor: pointer;
+			}
+
+
+			/*------------------95------------------*/
+			#qqqq {
+				cursor: pointer;
+			}
+
+
+			/*------------------96------------------*/
+			#rrrr {
+				cursor: pointer;
+			}
+
+
+			/*------------------97------------------*/
+			#ssss {
+				cursor: pointer;
+			}
+
+
+			/*------------------98------------------*/
+			#tttt {
+				cursor: pointer;
+			}
+
+
+			/*------------------99------------------*/
+			#uuuu {
+				cursor: pointer;
+			}
+
+			/*------------------99------------------*/
+			#vvvv {
+				cursor: pointer;
+			}
+
+
+
+
+
